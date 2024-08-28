@@ -1,0 +1,781 @@
+AGLD - Angel Protocol
+FJD - Dollar des Fidji
+LVL - Level
+SCR - Roupie seychelloise
+BBD - Dollar barbadian
+HNL - Lempira hondurienne
+UGX - Shilling ougandais
+KUJI - Kujira
+NEAR - NEAR Protocol
+AIOZ - AIOZ Network
+AUDIO - Audius
+WLD - Worldcoin
+HNT - Helium
+ETHFI - Ethereum Finance
+FARM - Harvest Finance
+SDG - Shilling soudanais
+DGB - DigiByte
+BCH - Bitcoin Cash
+AI - Aion
+FKP - Falkland Pound
+JST - JUST
+HOT - Holo
+AR - Arweave
+SEI - Sei Network
+QAI - Q.ai
+SEK - Couronne suédoise
+BB - BlackBerry
+QAR - Rial qatari
+JTO - Jito
+WEMIX - Wemix
+G - Golem
+FLR - Flare
+BIGTIME - Big Time
+BDT - Taka du Bangladesh
+T - TrueFi
+LYD - Dinar libyen
+W - Wrapped
+BDX - Beldex
+BABYDOGE - Baby Doge Coin
+SFP - SafePal
+DIA - DIA
+PORK - Porkchop
+JUP - Jupiter
+RSS3 - RSS3
+LYX - Lynx
+SGB - Songbird
+SGD - Dollar de Singapour
+STRD - Stader
+WOO - Wootrade Network
+BLUR - Blur
+STRK - Strike
+WZRD - Wizard
+HRK - Kuna croate
+DJF - Franc djiboutien
+OMIKAMI - Omikami
+WAVES - Waves
+FLOKI - Floki Inu
+SHP - Livre de Saint-Hélène
+BGB - Bitget Token
+SAND - The Sandbox
+DKK - Couronne danoise
+WCFG - Wrapped Configuration
+QUBIC - Qubic
+BGN - Lev bulgare
+UMA - Universal Market Access
+FOX - ShapeShift FOX
+WSTETH - Wrapped stETH
+TUSD - TrueUSD
+LRDS - Lattice
+HTG - Gourde haïtienne
+BHD - Dinar bahreïnien
+OAS - Oasis
+COVAL - Covalent
+CGLD - Celo Gold
+UNI - Uniswap
+FX - Function X
+HUF - Forint hongrois
+BIF - Franc burundais
+GF - Green Fuel
+PEPECOIN - PepeCoin
+SWFTC - SwftCoin
+BIT - BitDAO
+GT - GateToken
+SKK - Couronne slovaque
+SKL - Skale
+UOS - Ultra
+WST - WestStar
+SHPING - Shping
+BRETT - Brett Coin
+MYTH - Mythos
+DNT - district0x
+HT - Huobi Token
+SLE - Sleek
+FLOW - Flow
+UPI - Universal Protocol
+SLL - Leone sierra-léonais
+SLP - Smooth Love Potion
+ID - Identité
+DOG - Dogecoin
+GIGA - GigaCoin
+DOP - Peso dominicain
+IO - IO Coin
+UQC - Uquid Coin
+IQ - Everipedia
+DOT - Polkadot
+OSAK - Osaka
+1INCH - 1inch
+MAD - Dirham marocain
+FNSA - FinNexus
+TURBO - Turbo
+BLD - Agoric
+UNFI - Unifi Protocol
+APEX - APEX
+FTM - Fantom
+EVER - Everus
+POWR - Power Ledger
+FTN - Fasttoken
+MAV - Maverick
+CORGIAI - Corgia
+ARKM - Arkham
+ATOM - Cosmos
+SAVAX - Avalanche
+QUICK - QuickSwap
+PENDLE - Pendle
+BLZ - Bluzelle
+BOBA - Boba Network
+TONE - Tone
+BMD - Dollar bermudien
+SNT - Status
+SNX - Synthetix
+USD - Dollar américain
+API3 - API3
+ROSE - Oasis Network
+SATS - Satoshis
+PORTAL - Portal
+SOL - Solana
+MUMU - MumuCoin
+SOS - SOS
+BNB - Binance Coin
+OGN - Origin Protocol
+UST - TerraUSD
+CELR - Celer Network
+BND - Dollar bruneien
+CELO - Celo
+TBTC - tBTC
+AUCTION - Auction
+MANTA - Manta Network
+BADGER - Badger DAO
+MULTI - MultiCoin
+AERO - Aero
+SPA - Spartacoin
+BNT - Bancor
+SHDW - Shadow
+BOB - BobCoin
+MDL - Peso moldave
+OHM - Olympus
+MDT - Measurable Data Token
+ANDY - AndyCoin
+AERGO - Aergo
+MX - MX Token
+EGLD - Elrond
+KAS - Kaspa
+TRUMP - TrumpCoin
+MEW - MyEtherWallet
+PUNDIX - Pundi X
+FXS - Frax Share
+AEVO - Aevo
+SRD - SrdCoin
+NU - NuCypher
+FLUX - Flux
+TOPIA - Topia
+BPX - Bitcoin Private
+QNT - Quant
+OM - OM
+ETHW - Ethereum Proof of Work
+MUSE - Muse
+ETHX - Ethereum Classic
+OP - Optimism
+CANTO - Canto
+MGA - Magacoin
+OKB - OKB
+WETH - Wrapped Ether
+SSP - SmartShare
+NEON - Neon
+SSV - SSV Network
+OKT - OKT
+ETH2 - Ethereum 2.0
+PAAL - Paal
+KCS - KuCoin Shares
+BUSD - Binance USD
+ARPA - ARPA Chain
+BRL - Réal brésilien
+ALCX - Alchemix
+ALEX - Alex
+STD - Standard
+STG - Stargate Finance
+IOTX - IoTeX
+SHIB - Shiba Inu
+KDA - Kadena
+ZAR - Rand sud-africain
+STN - Stably
+BSD - Bitcoin Standard
+STX - Stacks
+QI - QI
+CAIR - CAIR
+ZBC - ZBC
+BLAST - BLAST
+BSV - Bitcoin SV
+IOST - IOStoken
+SUI - Sui
+CAKE - PancakeSwap
+MSOL - Marinade Staked SOL
+OMG - OMG Network
+OMI - ECOMI
+PYUSD - PayPal USD
+SUN - Sun Token
+BTC - Bitcoin
+UYU - Peso uruguayen
+IOTA - IOTA
+ZYPTO - ZYPTO
+BTG - Bitcoin Gold
+OMR - Rial omanais
+MIR - Mirror Protocol
+KES - Shilling kényan
+BTN - Ngultrum bhoutanais
+RONIN - Ronin Network
+SVC - Colón salvadorien
+BTT - BitTorrent
+ONE - Harmony
+RENDER - Render Token
+ONG - Ontology Gas
+CETH - Compound Ether
+ANKR - Ankr
+ALGO - Algorand
+SYLO - Sylo
+UZS - Som uzbek
+SC - Siacoin
+SD - Safex Dollar
+ONT - Ontology
+DYM - Dynamic
+DYP - DeFi Yield Protocol
+MKD - Denar macédonien
+DZD - Dinar algérien
+MKR - Maker
+KGS - Som kirghize
+ICP - Internet Computer
+ZEC - Zcash
+XAF - Franc CFA BEAC
+NEST - NEST Protocol
+ICX - ICON
+XAG - Argent
+KMNO - KMNO
+XAI - XAI
+ZEN - Horizen
+FRIEND - Friend
+DOGE - Dogecoin
+SXP - Swipe
+HBAR - Hedera Hashgraph
+XAU - Or
+MLN - Melon
+PEPE - PepeCoin
+KHR - Riel cambodgien
+IDR - Roupie indonésienne
+DOGS - DogeSwap
+CTSI - Cartesi
+BWP - Pula botswanais
+COMAI - COMAI
+OUSG - OUSG
+C98 - Coin98
+OSMO - Osmosis
+NTRN - NetTron
+SYN - Synapse
+MMK - Kyat birman
+SYP - Livre syrienne
+CRPT - Cryptaur
+GAJ - GAJ
+GAL - Galxe
+GAS - Gas
+XCD - Dollar des Caraïbes orientales
+MMX - MMX
+BOME - Bome
+VR - Virtual Reality
+XCH - Chia
+SYNC - Sync Network
+THETA - Theta Network
+PANDORA - Pandora
+XCN - Chain
+SZL - Lilangeni swazi
+ORN - Orion Protocol
+NEXO - Nexo
+AAVE - Aave
+MNT - Tugrik mongol
+GBP - Livre sterling
+BONK - Bonk
+BYN - Rouble biélorusse
+XDC - XDC Network
+PERP - Perpetual Protocol
+BYR - Rouble biélorusse (ancien)
+BONE - Bone ShibaSwap
+BOND - BarnBridge
+MOG - Mogwai
+XDR - Droits de tirage spéciaux
+TIME - Wonderland
+BICO - Biconomy
+BZD - Dollar bélizien
+MOP - Pataca macanaise
+MONA - MonaCoin
+XEC - Bitcoin Cash ABC
+PEOPLE - People
+XT - XT
+ZIL - Zilliqa
+XEM - Nem
+WEETH - Wrapped Ethereum
+TRAC - OriginTrail
+MPL - Maple
+10SET - 10SET
+WAXL - WAXL
+OOKI - Ooki Protocol
+BORA - Bora
+KMF - Franc comorien
+GEL - Lari géorgien
+ZK - Zero-Knowledge
+RSETH - RSETH
+EETH - EETH
+KNC - Kyber Network
+PROM - Prometeus
+ALEPH - Aleph.im
+PONKE - PONKE
+BODEN - Boden
+GFI - Gold Fintech
+MRO - Mauritanian Ouguiya
+MRS - Mrs Coin
+MRU - Mauritanian Ouguiya
+BORG - BorgCoin
+WAXP - WAX
+SUKU - Suku
+GGP - Gibraltar Pound
+GRIN - Grin
+VEF - Bolívar vénézuélien
+BTRFLY - Bittrfly
+ZMK - Kwacha zambien
+KARRAT - Karrat
+ALPH - Alpha
+MOBILE - MobileCoin
+TAO - Tao
+MTL - Metal
+VET - VeChain
+VES - Bolívar vénézuélien
+ZMW - Kwacha zambien
+USDT - Tether
+USDC.E - USD Coin (Ethereum)
+OXT - Orchid
+USDP - USDP
+ILS - Shekel israélien
+ILV - Illuvium
+GHS - Cedi ghanéen
+KPW - Won nord-coréen
+USDY - USDY
+EDU - EduCoin
+MEDIA - Media
+KEEP - Keep Network
+CAD - Dollar canadien
+CAF - Franc CFA
+EEK - Couronne estonienne
+MUR - Roupie mauricienne
+IMP - Isle of Man Pound
+GIP - Livre de Gibraltar
+BEAM - Beam
+IMX - Immutable X
+CAT - CAT
+USDE - USD Equivalent
+USDD - USD Digital Dollar
+USDC - USD Coin
+USDB - US Dollar B
+XMON - XMON
+RETH - rETH (Rocket Pool Ethereum)
+INJ - Injective Protocol
+KRL - Kleros
+VGX - Voyager Token
+CHEX - Chex
+MVR - MVR
+TRIBE - Tribe
+INR - Roupie indienne
+INV - Invest
+KRW - Won sud-coréen
+STSOL - Staked SOL
+MWC - MWC
+XLM - Stellar
+DORA - Dora
+MWK - Kwacha malawien
+SUPER - SuperFarm
+KSM - Kusama
+RNDR - Render Token
+GALA - Gala
+EGP - Livre égyptienne
+RAD - Radicle
+MXC - MXC
+TEL - Telcoin
+MOVR - Moonriver
+RAI - RAI Finance
+XMR - Monero
+MXN - Peso mexicain
+TET - TET
+MCOIN - MCOIN
+CDF - Franc congolais
+GLM - Golem
+RAY - Raydium
+BTC.B - Bitcoin BCH
+CDT - Cindicator
+FDUSD - FDUSD
+ZRO - ZRO
+KUB - KUB
+NPXS - Pundi X
+IQD - Dinar irakien
+GMD - Dalasi gambien
+RBN - Ribbon Finance
+ZRX - 0x
+MYR - Ringgit malaisien
+CEL - Celsius
+XOF - Franc CFA
+GMT - GMT
+BEER - Beer
+SWETH - SWETH
+CET - CoinEx Token
+GMX - GMX
+OMNI - Omni
+GNF - Franc guinéen
+MZN - Metical mozambicain
+CFG - Centrifuge
+IRR - Rial iranien
+GNO - Gnosis
+GNT - Golem
+GNS - Gains Network
+XPD - Palladium
+THB - Baht thaïlandais
+XPF - Franc pacifique
+VANRY - VANRY
+ABT - Aragon
+CFX - Conflux
+CDAI - cDAI
+KWD - Dinar koweïtien
+VELO - Velas
+XPT - Platine
+ISK - Couronne islandaise
+ACH - Ach
+MINA - Mina Protocol
+TIA - TIA
+VTHO - VeChain Thor
+PAB - Balboa panaméen
+ACS - ACS
+ACX - ACX
+REI - REI
+REN - Ren
+ELA - Elastos
+REP - Augur
+ADA - Cardano
+ELF - Aelf
+REQ - Request
+STORJ - Storj
+CHF - Franc suisse
+RARI - Rari Governance
+ELG - ELG
+ULTIMA - Ultima
+RARE - Rarible
+LADYS - LADYS
+PAXG - Paxos Gold
+PAX - Paxos Standard
+XRD - Radix
+CHR - Chromia
+VND - Dong vietnamien
+$WEN - $WEN
+CHZ - Chiliz
+KYD - Dollar des Îles Caïmans
+XRP - Ripple
+JASMY - JasmyCoin
+INDEX - INDEX
+TJS - Somoni tadjik
+AED - Dirham des Émirats
+FIDA - Bonfida
+H2O - H2O
+EML - EML
+ZWD - Dollar zimbabwéen
+OCEAN - Ocean Protocol
+QGOLD - QGOLD
+ZWL - Dollar zimbabwéen (révisé)
+PCI - PCI
+ENA - ENA
+RGT - Rari Governance Token
+ENJ - Enjin Coin
+TKX - Tokenomy
+KZT - Tenge kazakh
+YFII - Yearn.finance II
+DIMO - DIMO
+GRT - The Graph
+HBTC - Huobi BTC
+AFN - Afghani
+TFUEL - Theta Fuel
+ENS - Ethereum Name Service
+DEGEN - Degen Coin
+CKB - Nervos Network
+LUNC - Terra Classic
+XTZ - Tezos
+LUNA - Terra
+AURORA - Aurora
+AGI - SingularityNET
+EOS - EOS
+GST - Green Satoshi Token
+FORT - Forta
+RIF - RIF Token
+NAD - Dollar namibien
+FRXETH - FRXETH
+TMM - TMM
+SLERF - SLERF
+GTC - Gitcoin
+PEN - Pen
+TMT - TMT
+CLF - CLF
+TOSHI - Toshi
+EUROC - Euro Coin
+SUNDOG - SunDog
+GTQ - Quetzal guatémaltèque
+CLP - Peso chilien
+TND - Dinar tunisien
+CLV - Clover Finance
+$MYRO - $MYRO
+XVS - Venus
+MEME - MEME
+LYXE - Lyxe
+SFUND - Seedify.fund
+TON - The Open Network
+TOP - TOP
+PGK - Kina papouasien
+TOR - TorCoin
+GYEN - Yen japonais numérique
+CNH - Yuan offshore chinois
+NCT - Nectar
+WLUNA - Wrapped Luna
+ERN - EARN
+VENOM - Venom
+VOXEL - Voxel
+RLC - iExec RLC
+RLB - Rollbit
+MAGA - MAGA
+CNY - Yuan chinois
+PHP - Peso philippin
+RLY - Rally
+OX_OLD - OX OLD
+COQ - COQ
+COP - Peso colombien
+HOPR - HOPR
+AKT - Akash Network
+GLMR - Moonbeam
+ORAI - Oraichain
+XYO - XYO Network
+ETB - Birr éthiopien
+GXC - GXChain
+ETC - Ethereum Classic
+VUV - Vatu
+LAK - Kip laotien
+ETH - Ethereum
+NEO - NEO
+KLAY - Klaytn
+MEMES - MEMES
+ALL - ALL
+MAVIA - MAVIA
+HIGH - HIGH
+TRB - Tellor
+ALT - ALT
+ORDI - Ordi
+GYD - Dollar guyanais
+TRU - TrueFi
+AMD - AMD
+DREP - DREP
+ETHDYDX - dYdX Ethereum
+TRY - Lira turque
+LBP - Livre libanaise
+TRX - TRON
+NFT - Non-Fungible Token
+EUR - Euro
+AMP - AMP
+ORCA - Orca
+CQT - Covalent
+USTC - Terra Classic USD
+RON - Leu roumain
+NGN - Naira nigérian
+CRC - Colón costaricien
+PKR - Roupie pakistanaise
+CRE - CRE
+LUSD - Liquidity USD
+ANG - Guilder antillais
+SPELL - Spell Token
+LCX - LCX
+CRO - Crypto.com Coin
+PLA - PlayDapp
+TTD - Dollar trinidadien
+SFRXETH - SFRXETH
+CRV - Curve DAO Token
+MNDE - Minde
+ANT - Aragon
+BAKE - BakerySwap
+RPL - Rocket Pool
+AOA - AOA
+PLN - Zloty polonais
+AZERO - Aleph Zero
+LDO - Lido DAO
+MAGIC - Magic Internet Money
+ALICE - My Neighbor Alice
+CORECHAIN - CoreChain
+PLU - Pluton
+SEAM - Seam
+CTC - Creditcoin
+NIO - Nio
+APE - ApeCoin
+LEO - UNUS SED LEO
+APL - Apollo
+MCO2 - MCO2
+00 - 00
+MATIC - Polygon (anciennement Matic)
+APT - Aptos
+APU - APU
+CTX - CTX
+PNG - Papua New Guinean Kina
+TVK - Terra Virtua Kolect
+CUC - Peso cubain convertible
+PYTH - Pyth Network
+LFT - Lido Finance Token
+CUP - CUP
+TWD - Dollar taïwanais
+RSD - Dinar serbe
+FRAX - Frax
+WBETH - Wrapped Beacon ETH
+METH - Metis
+BAND - Band Protocol
+ASTR - Astar
+NKN - NKN
+RSR - Reserve Rights
+TWT - Trust Wallet Token
+ARB - Arbitrum
+CVC - Civic
+VARA - Vara
+CVE - CVE
+ARK - Ark
+LOKA - League of Kingdoms
+ARS - Peso argentin
+CVX - Convex Finance
+MPLX - MPLX
+SUSHI - SushiSwap
+WBTC - Wrapped Bitcoin
+ASM - Assembler
+RUB - Rouble russe
+AST - Ascott
+MANA - Decentraland
+CSPR - Casper
+ATA - Automata Network
+NMR - Numeraire
+JEP - Jep
+NMT - NMT
+ATH - All Time High
+LIT - Litentry
+TNSR - TNSR
+POLYX - Polymath Network
+DESO - Decentralized Social
+LOOM - Loom Network
+RVN - Ravencoin
+PRO - Pro
+TZS - Shilling tanzanien
+PRQ - Parsec
+ONDO - ONDO
+AUD - Dollar australien
+RWF - Franc rwandais
+KAVA - Kava
+NOK - Couronne norvégienne
+STRAX - Stratis
+LKR - Roupie srilankaise
+NOT - NOT
+NOS - NOS
+CZK - Couronne tchèque
+AVT - Aventus
+NPC - NPC
+EURC - EUR Coin
+YER - Riyal yéménite
+LSETH - Lido Staked ETH
+MASK - Mask Network
+AWG - Florin arubais
+NPR - Roupie népalaise
+PRIME - Prime
+YFI - Yearn.finance
+CWBTC - CWBTC
+POPCAT - Popcat
+WBT - WBT
+LQTY - Liquity
+OLAS - Olas
+ALUSD - ALUSD
+PUPS - PUPS
+PIXEL - Pixel
+ZETA - Zeta
+AXL - Axelar
+BILLY - Billy
+CHEEL - Cheel
+YGG - Yield Guild Games
+AXS - Axie Infinity
+HONEY - HONEY
+0X0 - 0X0
+COMP - Compound
+HFT - High-Frequency Trading
+WAMPL - WAMPL
+RUNE - Thorchain
+DEXT - Dextools
+FORTH - Ampleforth Governance Token
+GHST - Aavegotchi
+MATH - MATH
+IDEX - IDEX
+DEXE - DeXe
+VNST - Venn
+AVAX - Avalanche
+AZN - Azn
+AMPL - Ampleforth
+UAH - Hryvnia ukrainienne
+BANANA - Banana Token
+NEIRO - Neiro
+LPT - Livepeer
+EZETH - EZETH
+GODS - Gods Unchained
+EDUM - Eduum
+PYG - Guarani paraguayen
+JMD - Dollar jamaïcain
+XAUT - Tether Gold
+PYR - Vulcan Forged
+BTRST - Braintrust
+MKUSD - MKUSD
+DAG - Directed Acyclic Graph
+DAI - DAI
+DAO - Decentralized Autonomous Organization
+AVAIL - Avail
+DAR - DAR
+FET - Fetch.ai
+CBETH - CBETH
+LRC - Loopring
+REPV2 - Republic Protocol V2
+LRD - LRD
+CORE - Core DAO
+DASH - Dash
+POKT - Pocket Network
+SAGA - SAGA
+LSD - LSD
+JOD - Dinar jordanien
+GUSD - Gemini Dollar
+HKD - Dollar de Hong Kong
+JOE - Trader Joe
+ARSMEP - ARSMEP
+LSL - Loti sounien
+LSK - Lisk
+SAFE - Safe
+DCR - Decred
+WIF - WIF
+LTC - Litecoin
+METIS - Metis
+ECOIN - ECOIN
+STETH - stETH
+NXM - NXM
+LTL - LTL
+SAR - Riyal saoudien
+DYDX - dYdX
+AGIX - SingularityNET
+MUBI - MUBI
+POND - POND
+JPY - Yen japonais
+SBD - Steem Dollars
+DDX - DerivaDAO
+LINK - Chainlink
+QTUM - Qtum
+WILD - Wilder World
+POLS - Polkastarter
+FIL - Filecoin
+POLY - Polymath
+BAL - Balancer
+BAM - BAM
+FIS - FIS
+BAT - Basic Attention Token
+NZD - Dollar néo-zélandais
+COTI - COTI
