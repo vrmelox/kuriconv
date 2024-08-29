@@ -1,5 +1,6 @@
 import requests
 import csv
+import mysql.connector
 
 def getcurrencies():
     key_api = "6d650acd6e1a42c5935ca3703dca7182"

@@ -22,8 +22,37 @@
         </ul>
         <div class="h-main">
             <a href="#" class="h-btn">Jouez</a>
-            <!-- <div class="bx bx-sun" id="darkmode"></div> -->
         </div>
     </header>
+    <main>
+        <section class="haut">
+
+            <h1>Convertisseur de devises</h1>
+            <section class="milieu">
+                <form action="GET">
+                    <div class="gauch">
+                        <input for="number" id="moconvert" name="moconvert" placeholder="1000">
+                        <select id="choix-moconvert" name="choix-moconvert">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dollar américain</option>
+                            <option value="XOF">CFA Afrique de l'Ouest</option>
+                        </select>
+                    </div>
+                    <div class="droit">
+                        <input for="number" id="toconvert" name="toconvert" placeholder="1000">
+                        <select id="choix-toconvert" name="choix-toconvert">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dollar américain</option>
+                            <option value="XOF">CFA Afrique de l'Ouest</option>
+                        </select>
+                    </div>
+                    <input id="btsubi" type="submit" value="Convertir">
+                </form>   
+            </section>
+        </section>
+        <section class="bas">
+            
+        </section>
+    </main>
 </body>
 </html>
