@@ -1,6 +1,6 @@
 import requests
 import csv
-import mysql.connector
+import mysql.connector as MC
 
 def getcurrencies():
     key_api = "6d650acd6e1a42c5935ca3703dca7182"
@@ -38,3 +38,33 @@ def buidler(table, listcurrencies):
             my_table[cle] = currencies
     return my_table
 buidler(getcurrencies(), payli())
+
+try:
+    # Connexion à la base de données
+    conn = MC.connect(
+        host='localhost',
+        database='kuriconv',
+        user='vrmelo',
+        password='Laure@2024!'
+    )
+    cursor = conn.cursor()
+
+    # Exécuter la requête
+    req = "SELECT * FROM devise_rates"
+    cursor.execute(req)
+
+    # Récupérer tous les résultats
+    results = cursor.fetchall()
+
+    # Traiter les résultats
+    for row in results:
+        print(row)
+
+except MC.Error as err:
+    print(f"Erreur: {err}")
+
+finally:
+    # Assurer la fermeture des ressources
+    if conn.is_connected():
+        cursor.close()
+        conn.close()
