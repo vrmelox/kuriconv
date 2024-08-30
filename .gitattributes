@@ -1,0 +1,23 @@
+# Normaliser les fins de ligne pour les fichiers texte
+* text=auto
+
+# Traiter les fichiers .md comme des fichiers texte
+*.md text
+
+# Traiter les fichiers image comme binaires
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Exclure certains fichiers du traitement des fins de ligne
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Activer le filtrage pour les fichiers JSON
+*.json filter=json_filter
+
+# Spécifier des attributs pour des répertoires
+docs/* text
+
+# détecter le langage SQL
+*.sql linguist-detectable=true
