@@ -8,8 +8,6 @@ def getcurrencies():
     params = {"apikey" : key_api}
     response = requests.get(surl, params)
     data = response.json()
-    en_tete = []
-    ligne = []
     rates = data["rates"]
     table = {}
     table = {keys: values for keys, values in rates.items()}
@@ -28,7 +26,7 @@ def payli():
 
 def buidler(table, listcurrencies):
     keys = list(table.keys())
-    my_table = {cle: None for cle in keys}
+    my_table = {cle: None for cle in keys if cle != "SOLVBTC" and cle != "USD0"}
     mapping = {key: values for key, values in table.items()}
     for currencies in listcurrencies:
         cle = currencies[0].strip()
@@ -37,7 +35,6 @@ def buidler(table, listcurrencies):
             currencies[1] = mapping[cle]
             my_table[cle] = currencies
     return my_table
-buidler(getcurrencies(), payli())
 
 def currency_storage(table):
     try:
@@ -50,7 +47,7 @@ def currency_storage(table):
         cursor = conn.cursor()
 
         curates = [(key, value[0], value[1]) for key, value in table.items()]
-        cursor.executemany("""INSERT INTO devise_rates VALUES(?, ?, ?)""", curates)
+        cursor.executemany("""INSERT INTO devise_rates(devise, devise_name, rates) VALUES(%s, %s, %s)""", curates)
         conn.commit()
 
     except MC.Error as err:
@@ -60,3 +57,6 @@ def currency_storage(table):
         if conn.is_connected():
             cursor.close()
             conn.close()
+
+table = buidler(getcurrencies(), payli())
+currency_storage(table)
