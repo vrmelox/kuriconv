@@ -56,7 +56,7 @@ def currency_storage(table):
 
     except MC.Error as err:
         print(f"Erreur: {err}")
-
+        conn.rollback()
     finally:
         if conn.is_connected():
             cursor.close()
