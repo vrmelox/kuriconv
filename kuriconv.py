@@ -39,32 +39,25 @@ def buidler(table, listcurrencies):
     return my_table
 buidler(getcurrencies(), payli())
 
-try:
-    # Connexion à la base de données
-    conn = MC.connect(
-        host='localhost',
-        database='kuriconv',
-        user='vrmelo',
-        password='Laure@2024!'
-    )
-    cursor = conn.cursor()
+def currency_storage(table):
+    try:
+        conn = MC.connect(
+            host='localhost',
+            database='kuriconv',
+            user='vrmelo',
+            password='Laure@2024!'
+        )
+        cursor = conn.cursor()
 
-    # Exécuter la requête
-    req = "SELECT * FROM devise_rates"
-    cursor.execute(req)
+        for key, value in table.items():
+            new_currency = [key, value[0], value[1]]
+            cursor.execute("""INSERT INTO devise_rates VALUES(?, ?, ?)""", new_currency)
+            conn.commit()
 
-    # Récupérer tous les résultats
-    results = cursor.fetchall()
+    except MC.Error as err:
+        print(f"Erreur: {err}")
 
-    # Traiter les résultats
-    for row in results:
-        print(row)
-
-except MC.Error as err:
-    print(f"Erreur: {err}")
-
-finally:
-    # Assurer la fermeture des ressources
-    if conn.is_connected():
-        cursor.close()
-        conn.close()
+    finally:
+        if conn.is_connected():
+            cursor.close()
+            conn.close()
