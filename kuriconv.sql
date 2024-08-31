@@ -19,6 +19,3 @@ CREATE TABLE rates_history (
     PRIMARY KEY (id),
     FOREIGN KEY(devise) REFERENCES devise_rates(devise)
 );
-
-INSERT INTO devise_rates (devise, devise_name, rates)
-VALUES ('USD', 'Dollar américain', 1.1000);

@@ -49,10 +49,9 @@ def currency_storage(table):
         )
         cursor = conn.cursor()
 
-        for key, value in table.items():
-            new_currency = [key, value[0], value[1]]
-            cursor.execute("""INSERT INTO devise_rates VALUES(?, ?, ?)""", new_currency)
-            conn.commit()
+        curates = [(key, value[0], value[1]) for key, value in table.items()]
+        cursor.executemany("""INSERT INTO devise_rates VALUES(?, ?, ?)""", curates)
+        conn.commit()
 
     except MC.Error as err:
         print(f"Erreur: {err}")
