@@ -107,13 +107,13 @@ h1 {
     color: #2EBD58;
     font-size: 3em;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .convert-field {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
 }
 form {
     position: relative;
@@ -138,7 +138,10 @@ form {
     margin: 15px;
     display: none;
 } */
-
+i {
+    margin-top: 15px;
+    font-size: 20px;
+}
 #btsubi {
     font-size: 1.2em;
     border: 1px solid black;
@@ -167,3 +170,28 @@ form {
     margin-top: 12em;
 }
 
+form :where(input, select) {
+    outline: none;
+    border: none;
+}
+
+.gauch, .droit{
+    border: 1px solid #999;
+    height: 50px;
+    border-radius: 50px;
+    padding: 15px 15px;
+}
+
+.gauch:active, .droit:active{
+    border: 2px, solid #c64fff;
+}
+
+select {
+    width: 100px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+input {
+    font-size: 15px;
+}
