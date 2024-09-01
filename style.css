@@ -30,8 +30,6 @@ header{
 }
 
 .logo{
-    display: flex;
-    align-items: center;
     color: var(--text-color);
     font-size: 40px;
     font-weight: bold;
