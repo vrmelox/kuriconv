@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!--boxicons link---->
+    <!--fonts link---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!--Awesome font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--My title-->
     <title>Kuriconv: la proximité de l'argentier</title>
 </head>
 <body>
@@ -26,10 +29,9 @@
     </header>
     <main>
         <section class="haut">
-
-            <h1>Convertisseur de devises</h1>
-            <section class="milieu">
-                <form action="GET">
+                <h1>Convertisseur de devises</h1>
+                <form action="#">
+                <div class="convert-field">
                     <div class="gauch">
                         <input for="number" id="moconvert" name="moconvert" placeholder="1000">
                         <select id="choix-moconvert" name="choix-moconvert">
@@ -38,6 +40,7 @@
                             <option value="XOF">CFA Afrique de l'Ouest</option>
                         </select>
                     </div>
+
                     <div class="droit">
                         <input for="number" id="toconvert" name="toconvert" placeholder="1000">
                         <select id="choix-toconvert" name="choix-toconvert">
@@ -46,12 +49,17 @@
                             <option value="XOF">CFA Afrique de l'Ouest</option>
                         </select>
                     </div>
-                    <input id="btsubi" type="submit" value="Convertir">
+                </div>
+                    <button id="btsubi" type="submit" value="Convertir">Convertir</button>
                 </form>   
-            </section>
         </section>
         <section class="bas">
-            
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-1.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-2.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-3.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-4.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-5.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-6.png" class="img-fluid" />
         </section>
     </main>
 </body>

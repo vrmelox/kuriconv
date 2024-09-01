@@ -9,27 +9,18 @@
 
 :root{
     --text-color: #c64fff;
-    --bg-color: #FBFCF8;
+    --bg-color: #fcf8f8;
     --main-color: #51fe5d;
     --second-color: #fff;
     --big-font: 5.5rem;
     --p-font: 1rem;
     --ba-color: #4bddf9;
 }
-/* 
-body{
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(African\ warrior.png);
-    background-position: center;
-    background-size: cover;
-    color: var(--text-color);
-    height: 100vh;
-}*/
 
 header{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 1000;
     width: 100%;
     display: flex;
     align-items: center;
@@ -56,7 +47,6 @@ header{
 
 .navlist {
     display: flex;
-
 }
 
 .navlist a{
@@ -74,7 +64,6 @@ header{
 .h-main {
     display: flex;
     align-items: center;
-
 }
 
 .h-btn {
@@ -99,51 +88,48 @@ header{
 main {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .haut {
-    width: 100%;
-    height: 50vh;
-    background-color: #333652;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: #e0ffff;
 }
 .bas {
-    width: 100%;
-    height: 50vh;
-    background-color: #FAD02C;
-    z-index: -1000;
-}
-.milieu {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    height: 20em;
-    align-items: center;
-    border: 4px solid white;
-    margin: 70px auto;
-    padding: 20px 40px;
-    background-color: #fff;
-    border-radius: 15px;
-    width: 60%;
+    background: #ef7c8e;
+    min-height: 50vh;
 }
 h1 {
-    color: white;
+    color: #2EBD58;
     font-size: 3em;
     text-align: center;
     margin-top: 200px;
 }
-.gauch {
-    display: flex;
-}
-.droit {
-    display: flex;
-}
-form {
+
+.convert-field {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    gap: 10px;
 }
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    width: 50%;
+    background-color: #ffffff;
+    border: 2px solid #c64fff;
+    border-radius: 50px;
+    gap: 2em;
+    padding: 35px 0;
+}
+
 /*#menu-icon{
     font-size: 40px;
     color: var(--text-color);
@@ -152,3 +138,32 @@ form {
     margin: 15px;
     display: none;
 } */
+
+#btsubi {
+    font-size: 1.2em;
+    border: 1px solid black;
+    background-color: #51fe5d;
+    padding: 20px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#btsubi:active{
+   transform: scale(0.98);
+}
+
+.bas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+}
+.bas img {
+    width: 200px;
+    background-color: #e0ffff;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 12em;
+}
+
