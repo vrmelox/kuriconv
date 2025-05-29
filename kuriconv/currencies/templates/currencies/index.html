@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'currencies/css/style.css' %}">
+    <!--fonts link---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!--Awesome font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--My title-->
+    <title>Kuriconv: la proximité de l'argentier</title>
+</head>
+<body>
+    <!--header---->
+    <header>
+        <a href="#" class="logo"><img src="{% static 'currencies/images/Kuric.png' %}" alt="Icone du logo de Kuriconv">Kuriconv</a>
+        <ul class="navlist">
+            <li><a href="#">Devises</a></li>
+            <li><a href="#">Investir</a></li>
+            <li><a href="#">Transfert</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="h-main">
+            <a href="#" class="h-btn">Jouez</a>
+        </div>
+    </header>
+    <main>
+        <section class="haut">
+                <h1>Convertisseur de devises</h1>
+                <form method="POST" action="{% url 'currencies:convert_currency' %}">
+                    {% csrf_token %}
+                    {% if error_message %}
+                        <p style="color: red;">Error: {{ error_message }}</p>
+                    {% endif %}
+                    <div class="convert-field">
+                        <div class="gauch">
+                            <input type="text" id="amount" name="amount" placeholder="Enter amount" value="{{ input_amount|default_if_none:'' }}">
+                            <select id="from_currency_code" name="from_currency_code">
+                                <option value="">--- From Currency ---</option>
+                                {% for currency in currencies_list %}
+                                    <option value="{{ currency.devise }}" {% if currency.devise == from_currency_code %}selected{% endif %}>
+                                        {{ currency.devise_name }} ({{ currency.devise }})
+                                    </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <i class="fa-solid fa-right-left"></i>
+                        <div class="droit">
+                            <input type="text" id="converted_amount_display" name="converted_amount_display" value="{{ converted_amount_display|default_if_none:'' }}" readonly placeholder="Result">
+                            <select id="to_currency_code" name="to_currency_code">
+                                <option value="">--- To Currency ---</option>
+                                {% for currency in currencies_list %}
+                                    <option value="{{ currency.devise }}" {% if currency.devise == to_currency_code %}selected{% endif %}>
+                                        {{ currency.devise_name }} ({{ currency.devise }})
+                                    </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <button id="btsubi" type="submit">Convertir</button>
+                </form>
+                {% if conversion_summary %}
+                    <div class="conversion-summary" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0; border-radius: 5px;">
+                        <h3>Conversion Result:</h3>
+                        <p>{{ conversion_summary }}</p>
+                    </div>
+                {% endif %}
+        </section>
+        <section class="bas">
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-1.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-2.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-3.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-4.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-5.png" class="img-fluid" />
+                    <img src="https://speedyui-static.s3.amazonaws.com/partner-sections/partner-6.png" class="img-fluid" />
+        </section>
+    </main>
+</body>
+</html>
